@@ -1,0 +1,89 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  * {
+    background-color: #dfe1ef;
+  }
+  
+  .inside {
+    width: 90%; /* Adjusts width based on screen size */
+    max-width: 320px; /* Maximum width to prevent it from getting too large */
+    height: auto;
+    background-color: white;
+    margin: 10% auto; /* Center horizontally and add margin from top */
+    border-radius: 10px;
+    padding-bottom: 20px; /* Added padding to give space at the bottom */
+    text-align: center; /* Centers inline elements inside */
+  }
+  
+  
+  .img {
+    margin-top: 16px;
+    border-radius: 10px;
+    width: 90%; /* Adjusts width based on container size */
+    max-width: 288px; /* Maximum width to prevent it from getting too large */
+    display: inline-block; /* Ensures the image centers properly */
+  }
+  
+  .hello {
+    margin-top: 0;
+    height: auto;
+    width: 90%; /* Adjusts width based on container size */
+    max-width: 288px; /* Maximum width to prevent it from getting too large */
+    background: transparent;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .insideHead {
+    color: #1f314f;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0px;
+  }
+  
+  .insidePara {
+    font-size: 15px;
+    margin-top: 16px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+  }
+  
+  .hello1 {
+    background: transparent;
+  }
+  
+  @media only screen and (min-width: 375px) {
+    .inside {
+      margin-top: 20%; /* More margin on smaller screens */
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .inside {
+      margin-top: 15%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .inside {
+      margin-top: 10%;
+      max-width: 400px; /* Slightly wider on larger screens */
+    }
+  }
+   
